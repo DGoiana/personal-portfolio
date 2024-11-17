@@ -14,7 +14,7 @@ const About = () => {
 }`;
 
    return (
-      <main className="flex justify-center flex-grow pt:32 md:pt-64">
+      <main className="flex justify-center flex-grow pt:32 lg:pt-64">
          <SyntaxHighlighter
             language="ruby"
             style={{
