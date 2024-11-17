@@ -3,8 +3,8 @@ import Project from "./Project"
 const Projects = () => {
    return (
       <section className="flex flex-col">
-         <h1 className="mb-4 font-semibold text-xl">Bigger Projects</h1>
-         <div className="flex flex-wrap gap-3 justify-center" style={{ maxWidth: '652px' }}>
+         <h1 className="mb-4 font-semibold text-xl text-center md:text-left">Bigger Projects</h1>
+         <div className="flex flex-wrap gap-3 justify-center max-w-full mx-auto" style={{ maxWidth: '652px' }}>
             <Project title="UNI" description="Mobile app designed to help students of the University of Porto to manage their academic life." lang="Dart" url="https://github.com/NIAEFEUP/uni" />
             <Project title="Pagepal" description="Tinder like application to trade books based on your location." lang="Dart" url="https://github.com/DGoiana/pagepal" />
             <Project title="Simple Tomb of the Mask" description="Simple replica of Tomb of the Mask." lang="Java" url="https://github.com/DGoiana/feup-ldts" />
