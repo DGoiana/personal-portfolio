@@ -1,3 +1,4 @@
+import Experience from "./Experience"
 import Projects from "./Projects"
 
 const Work = () => {
@@ -5,6 +6,7 @@ const Work = () => {
       <>
          <main className="flex flex-col items-center flex-grow">
             <Projects />
+            <Experience />
          </main>
       </>
    )

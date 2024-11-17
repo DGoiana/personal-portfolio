@@ -2,7 +2,7 @@ const Header = () => {
    return (
       <section className="py-5 px-16 text-black flex justify-between font-semibold">
          <div>
-            &lt;/me&gt;
+            <a href="/">&lt;/me&gt;</a>
          </div>
          <div className="flex gap-10">
             <a href="/about">about</a>
