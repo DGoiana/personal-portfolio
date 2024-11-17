@@ -2,7 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
    return (
-      <main className="flex justify-center flex-grow pt:32 md:pt-64">
+      <main className="flex justify-center flex-grow pt-32 lg:pt-48 xl:64">
          <div className="flex flex-col gap-4">
             <TypeAnimation style={{
                color: 'white',
