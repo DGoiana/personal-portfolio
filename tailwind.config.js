@@ -5,10 +5,9 @@ export default {
     extend: {
       colors: {
         mainbg: "#f7eee4",
-        textgray: '#737373',
+        textgray: "#737373",
       },
     },
   },
   plugins: [],
-}
-
+};
