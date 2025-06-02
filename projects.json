@@ -3,36 +3,63 @@
     "title": "UNI",
     "description": "Mobile app designed to help students of the University of Porto to manage their academic life.",
     "lang": "Dart",
-    "url": "https://github.com/NIAEFEUP/uni"
+    "url": "https://github.com/NIAEFEUP/uni",
+    "favorite": true
   },
   {
     "title": "Pagepal",
     "description": "Tinder like application to trade books based on your location.",
     "lang": "Dart",
-    "url": "https://github.com/DGoiana/pagepal"
+    "url": "https://github.com/DGoiana/pagepal",
+    "favorite": false
   },
   {
     "title": "Simple Tomb of the Mask",
     "description": "Simple replica of Tomb of the Mask.",
     "lang": "Java",
-    "url": "https://github.com/DGoiana/feup-ldts"
+    "url": "https://github.com/DGoiana/feup-ldts",
+    "favorite": false
   },
   {
     "title": "File Transfer",
     "description": "Two layered protocol to facilitate reliable file transfer between computers over RS-232 serial connections.",
     "lang": "C",
-    "url": "https://github.com/DGoiana/feup-rcom"
+    "url": "https://github.com/DGoiana/feup-rcom",
+    "favorite": false
   },
   {
     "title": "NBA stats",
     "description": "Webapp that scrapes data from a NBA API made with the purpose of finishing CS50's Harvard University Course.",
     "lang": "Python",
-    "url": "https://github.com/DGoiana/cs50-final-project"
+    "url": "https://github.com/DGoiana/cs50-final-project",
+    "favorite": false
   },
   {
     "title": "College SA Website",
     "description": "Website for the students association of my college.",
     "lang": "TypeScript",
-    "url": "https://github.com/NIAEFEUP/website-ae"
+    "url": "https://github.com/NIAEFEUP/website-ae",
+    "favorite": false
+  },
+  {
+    "title": "everyday.dev",
+    "description": "A platform where developers with knowledge through collaboration and discussion.",
+    "lang": "PHP",
+    "url": "https://github.com/DGoiana/everyday.dev",
+    "favorite": true
+  },
+  {
+    "title": "Computer Graphics",
+    "description": "Interactive playground build with WebGL.",
+    "lang": "JavaScript",
+    "url": "https://github.com/DGoiana/feup-cgra",
+    "favorite": false
+  },
+  {
+    "title": "uSettle",
+    "description": "Receipt scanner app designed to put an end to the “you pay now, send me my share later” hassle.",
+    "lang": "Dart",
+    "url": "https://github.com/DGoiana/usettle",
+    "favorite": true
   }
 ]

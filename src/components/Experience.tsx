@@ -4,9 +4,9 @@ import niLogo from "../assets/ni_icon.png"
 
 const Experience = () => {
    return (
-      <section className="flex flex-col my-10 px-4 md:px-8 lg:px-16">
-         <h1 className="mb-4 font-semibold text-xl">Work Experience</h1>
-         <div className="border-gray border-solid border rounded-lg shadow-sm p-6 flex flex-col max-w-full mx-auto" style={{ maxWidth: '652px' }}>
+      <section className="flex flex-col my-10 items-center">
+         <h1 className="mb-5 font-semibold text-lg underline">experience</h1>
+         <div className="border-gray border-solid border rounded-lg shadow-sm p-6 flex flex-col max-w-full" style={{ maxWidth: '652px' }}>
             <ExperienceCard role="Frontend Mobile Developer Intern" company="Yari Labs" timestamp="2024 Jun - 2024 Jul" image={yariLabsLogo} description="Developed a web-based game, Dharma Immortals, using Flutter and the Flame Engine. Collaborated with the backend team to integrate real-time features using WebSockets and Elixir." />
             <hr className="mt-6 mb-5 border-top border-solid border-gray-300 w-full h-1 self-center"></hr>
             <ExperienceCard role="Project Manager" company="NIAEFEUP" timestamp="2024 Jun - Present" image={niLogo} description="Leader of a development team dedicated to enhancing students' academic experiences through a mobile application called UNI. Currently utilizing Flutter for cross-platform development, with the primary goal of improving the application's quality and usability across the entire university." />

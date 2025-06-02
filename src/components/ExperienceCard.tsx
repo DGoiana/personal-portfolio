@@ -12,7 +12,7 @@ const ExperienceCard = ({ role, company, timestamp, description, image }: Experi
    return (
       <div className="flex flex-col gap-2">
          <div className="flex gap-2">
-            <img src={image} width={50} className="rounded-full" />
+            <img src={image} className="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover" />
             <div className="flex flex-col">
                <h1 className="font-semibold ">{role}</h1>
                <h2 className="text-sm text-textgray">{company}</h2>
