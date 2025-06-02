@@ -2,9 +2,10 @@ import { Suspense } from "react"
 import Layout from "../components/Layout"
 import Work from "../components/Work"
 import { ProjectType } from "../types/Project";
+import projects from "../assets/projects.json"
 
 const fetchProjects = (): Promise<ProjectType[]> => {
-   return fetch('projects.json').then(res => res.json());
+   return Promise.resolve(projects as ProjectType[])
 }
 
 
@@ -13,7 +14,7 @@ const WorkPage = () => {
 
    return (
       <Layout child={
-         <Suspense fallback={<div>Loading projects...</div>}>
+         <Suspense fallback={<></>}>
             <Work projectsPromise={projectsPromise}/>
          </Suspense>
       } />
